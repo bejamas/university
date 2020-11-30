@@ -6,7 +6,11 @@ The open source GitHub repository is set-up to work with a GatherContent example
 
 To deploy with **Vercel**, click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbejamas%2Funiversity&env=GATHERCONTENT_API_USERNAME,GATHERCONTENT_API_KEY,GATHERCONTENT_PROJECT_ID&demo-title=Royal%20University%20of%20GatherContent&demo-description=GatherContent%20example%20project%2C%20publishing%20content%20to%20Vercel%20or%20Netlify%2C%20which%20then%20uses%20Next.js%20to%20present%20on%20the%20front%20end.&demo-url=https%3A%2F%2Funiversity.bejamas.io)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbejamas%2Funiversity&env=GATHERCONTENT_API_USERNAME,GATHERCONTENT_API_KEY,GATHERCONTENT_PROJECT_ID&demo-title=Royal%20University%20of%20GatherContent&demo-description=GatherContent%20example%20project%2C%20publishing%20content%20to%20Vercel%20or%20Netlify%2C%20which%20then%20uses%20Next.js%20to%20present%20on%20the%20front%20end.&demo-url=https%3A%2F%2Funiversity.bejamas.io&demo-image=https%3A%2F%2Funiversity.bejamas.io%2Fwebsite-screenshot.png)
+
+To deploy with **Netlify**, click:
+
+[![Deploy with Vercel](https://www.netlify.com/img/deploy/button.svg)](https://github.com/bejamas/university)
 
 ### Required environment variables
 
@@ -17,7 +21,8 @@ GATHERCONTENT_PROJECT_ID=<project-id>
 ```
 
 - `GATHERCONTENT_API_USERNAME` is your email address which you used to sign up to GatherContent
-- `GATHERCONTENT_API_KEY` - follow [instructions](https://docs.gathercontent.com/reference#authentication) to find your API key.
+- `GATHERCONTENT_API_KEY` - follow [instructions](https://docs.gathercontent.com/reference#authentication) to find your API key
+- `GATHERCONTENT_PROJECT_ID` - the easiest way to get the ID is to copy it from the URL. Go to your project, the structure will look like this: `gathercontent.com/content/<PROJECT-ID>/items`
 
 ### Local development
 
